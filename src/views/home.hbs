@@ -1,0 +1,20 @@
+
+<div class="card ">
+    <div class="card-header bg-primary text-white">
+        <h3> Tesis Recientes</h3>
+     </div>
+        <div class="card-body">
+            <div class="row">
+                {{#each todasTesis}}
+            <div class="col-md-12">
+                <a href="/tesis/{{uniqueId}}" style='text-decoration:none; color:dodgerblue'>
+                    <h4 class="text">{{title}}</h4> 
+                </a>
+                <h5>{{Fecha fecha}}</h5>
+                <br>
+            </div>
+            {{/each}}
+            </div>
+        </div>
+    
+</div>

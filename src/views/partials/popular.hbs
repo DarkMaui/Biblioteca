@@ -1,0 +1,18 @@
+<div class="card mb-2">
+    <div class="card-header bg-primary text-white" >
+        <h5> <i class="fas fa-fire " style="color:indianred;"></i> Mas Populares</h5>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            {{#each sidebar.popular}}
+                <div class="col-md-12">
+                    <a href="/tesis/{{uniqueId}}" style='text-decoration:none; color:dodgerblue'>
+                    <h4 class="text">{{title}}</h4> 
+                    </a>
+                     <br>
+                </div>
+            {{/each}}
+        </div>
+        </div>
+   
+</div>
